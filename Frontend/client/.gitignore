@@ -7,6 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+node_modules/
+Backend/node_modules/
+Frontend/client/node_modules/
+
+
+.env
+serviceAccountKey.json
+
 node_modules
 dist
 dist-ssr
@@ -17,8 +25,16 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+
+# Ignore logs
+*.log
+
+# Ignore CSV and data files
+*.csv
