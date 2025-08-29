@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  @apply bg-slate-50 text-slate-800 font-body;
+}
+body {
+  background: radial-gradient(circle at top left, #0f0c29, #302b63, #24243e);
+  background-attachment: fixed;
+  color: white;
+}
