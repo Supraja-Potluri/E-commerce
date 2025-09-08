@@ -74,10 +74,11 @@ export default function ProductDetails() {
         />
       </div>
 
-      {/* ✅ Product Details */}
+        {/* ✅ Product Details */}
       <div className="flex-1">
-        <h1 className="text-2xl font-bold">{product.name}</h1>
-        <p className="text-gray-500 mt-1">{product.sub_category}</p>
+        <h1 className="text-2xl font-bold text-gray-900">{product.name}</h1>
+        <p className="text-gray-600 mt-1">{product.sub_category}</p>
+
 
         {/* ✅ Rating Section */}
         <div className="flex items-center gap-2 mt-3">

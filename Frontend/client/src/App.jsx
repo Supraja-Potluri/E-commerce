@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <CartProvider>
-     // <div className="container mx-auto px-4 py-8 bg-gray-100 min-h-screen rounded-lg shadow-md">
+      <div className="min-h-screen flex flex-col bg-gray-50">
         <Navbar />
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
