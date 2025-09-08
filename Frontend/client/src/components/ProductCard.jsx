@@ -1,8 +1,6 @@
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-
 
 export default function ProductCard({
   id,
